@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(34, 193, 195);
+  background: rgb(200, 40, 16);
+  background: linear-gradient(
+    90deg,
+    rgba(200, 40, 16, 1) 0%,
+    rgba(255, 120, 0, 1) 0%,
+    rgba(117, 138, 159, 1) 61%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  height: 100vh;
+  font-family: "Courgette", cursive;
+}
+
+.container {
+  max-width: 320px;
+  height: 150px;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-family: "Courgette", cursive;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+}
+
+img {
+  width: 50px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+h1 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  font-size: 3rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 1px;
+  color: darkgray;
+}
+
+button {
+  padding: 0px 15px;
+  font-family: "Courgette", cursive;
+  border-radius: 20px;
+  height: 35px;
+  border: 1px;
+  color: black;
+  background-color: white;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer p {
+  margin: 1px;
+  font-size: 20px;
+}
+#footer img {
+  margin-bottom: 20px;
+}
